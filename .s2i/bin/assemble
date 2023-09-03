@@ -10,14 +10,14 @@ config_s2i
 
 
 ######## CUSTOMIZATION STARTS HERE ############
-cp -Rf /tmp/src/*.html ./
-
+#cp -Rf /tmp/src/*.html ./
+cp -RF /tmp/src/*.html ./
 echo "umber omini hotel" >> ./index.html
 
-DATE=$(date +%F)
+dt=$(date +%F)
 
-echo "Page built on $DATE" >> ./info.html
-echo "Amki insent, sed on light" >> ./info.html
+echo "Page built on $dt" >> ./info.html
+#echo "Amki insent, sed on light" >> ./info.html
 
 
 ######## CUSTOMIZATION ENDS HERE ############
