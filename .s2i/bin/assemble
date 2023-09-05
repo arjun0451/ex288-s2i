@@ -12,11 +12,11 @@ config_s2i
 ######## CUSTOMIZATION STARTS HERE ############
 #cp -Rf /tmp/src/*.html ./
 cp -RF /tmp/src/*.html ./
-echo "umber omini hotel" >> ./index.html
+echo "hello arjun welcome to ex288 exam" >> ./index.html
 
 dt=$(date +%F)
 
-echo "Page built on $dt" >> ./info.html
+echo "Page built on $dt by arjun" >> ./info.html
 #echo "Amki insent, sed on light" >> ./info.html
 
 
