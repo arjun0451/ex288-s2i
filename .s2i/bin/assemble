@@ -11,7 +11,7 @@ config_s2i
 
 ######## CUSTOMIZATION STARTS HERE ############
 #cp -Rf /tmp/src/*.html ./
-cp -RF /tmp/src/*.html ./
+cp -Rf /tmp/src/*.html ./
 echo "hello arjun welcome to ex288 exam" >> ./index.html
 
 dt=$(date +%F)
